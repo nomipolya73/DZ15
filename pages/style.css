@@ -1,0 +1,8 @@
+body{background-color: rgb(177, 189, 247);text-align: center;
+    margin: 10;
+    font-family: Verdana, Arial, sans-serif;}
+*{font-size: 15px;}
+label{color: blueviolet;}
+#dt{color: blueviolet;}
+.gen{color: rgb(200, 227, 24);}
+.ans{color:blue}

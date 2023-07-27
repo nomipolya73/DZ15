@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>About</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <a href="../index.html">Головна</a>
+          <a href="../pages/about.html">Про мене</a>
+          <a href="../pages/gallery.html">Галерея</a>
+          <a href="../pages/сontacts.html">Контакти</a>
+          
+    </nav>
+        <p>Давайте знайомитись! Мене звати Поліна Бліндер. Я живу в Одесі. 
+          I вчуся на курсах QA в школі Гілель</p>
+          <br> <br>
+          <img src="./image/5.jpg" width="300" height="300" title="Я">
+         <br> 
+          <p>Написати мені можна тут: <a href="../pages/сontacts.html">Контакти</a> </p>
+          <p>Або тут: <a href="https://www.facebook.com/polina.blinder">Мій Профіль</a></p>
+          <p>А ви любите квіти?</p>
+          <Form method="post" action="http://fom.in.ua/echo"> 
+      <br>
+   <label for="name">  
+    Ваше ім'я:</label> <input type="text" id="name" placeholder="ваше ім'я" maxlength="8" 
+    title="максимальна довжина 5 символів" name="Name"> 
+    <label for="e-mail"> 
+    Ваш email:</label> <input type="text" id="e-mail" placeholder="ваш email" name="E-mail"> 
+    
+    <br> <br>
+    <label for="date" id="dt">Дата народження:</label> <input type="date" id="date" name="Date">
+    <br> <br> 
+    <label class="gen">Чоловік: </label> <input type="radio" name="gender" name="Gender" value="male"> 
+    <br> 
+    <label class="gen">Жінка: </label> <input type="radio"  name="gender" name="Gender" value="femaile">
+    <br> 
+    <label class="ans">Так: </label> <input type="radio" name="answer" name="Answer" value="Yes"> 
+    <br> 
+    <label class="ans">Ні: </label> <input type="radio"  name="answer" name="Answer" value="No">
+    <br>
+    <br> 
+    <label>Згоден, щоб мені надсилали листа: </label> <input type="checkbox" name="checkbox" value="letter">
+  <br> <br>
+  <input type="submit" value="SUBMIT">
+</Form>
+</body>
+</html>
